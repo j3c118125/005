@@ -1,0 +1,83 @@
+@font-face{
+    src: url(../fonts/Logisoso.ttf);
+    font-family: logisoso;
+    src: url(../fonts/RobotoCondensed-Regular.ttf);
+    font-family: Roboto;
+  }
+  .wrapper{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+  
+  .navbar{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    background-color:  #b32c27;
+    cursor: pointer;
+    border-radius: 100%;
+  }
+  
+  .navbar div{
+    height: 5px;
+    width: 40px;
+    background-color: #ffffff;
+    position: absolute;
+  }
+  
+  .navbar .first{
+    top: 18px;
+    left: 15px;
+  }
+  
+  .navbar .second{
+    top: 33px;
+    left: 15px;
+  }
+  
+  .navbar .third{
+    top: 48px;
+    left: 15px;
+  }
+  
+  .section1 {
+    background: linear-gradient(rgba(225,50,55,0.8),rgba(225,50,55,0.8)),url("../img/bg_1.png");
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .section1 .content .jepang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .section1 .content .text{
+  padding: 10px;
+  background: url("../img/bg_1.png");
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  color: #00000047;
+  text-transform: uppercase;
+  font-family:'Roboto';
+  font-size: 25rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-align: center;
+  }
+  
+  .section2{
+    background: url("../img/bg_1.png");
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .section2 .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
